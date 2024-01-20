@@ -1,0 +1,11 @@
+failure calculating stats: ('C1C[C@H]2[C@@H]3O[C@H]2CO[C@H]13', 'C1C[C@H]2[C@@H]3O[C@H]2CO[C@H]13')
+no model prediction available: C=C1C(=O)C=NN1C.N
+failure calculating stats: ('C[C@H]1[C@H]2OC[C@@H]3C[C@H]2N31', 'C[C@H]1[C@H]2OC[C@@H]3C[C@H]2N31')
+no model prediction available: FC(F)(F)F
+no model prediction available: N#N.[NH]C1=N[CH]OC1=O
+poor ground truth conformers: [H]N=c1nc[nH]cn1
+Recall Coverage: Mean = 99.65, Median = 100.00
+Recall AMR: Mean = 0.2251, Median = 0.1928
+
+Precision Coverage: Mean = 99.49, Median = 100.00
+Precision AMR: Mean = 0.2697, Median = 0.2425

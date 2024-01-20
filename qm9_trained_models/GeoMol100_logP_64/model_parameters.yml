@@ -1,0 +1,40 @@
+hyperparams:
+  MolR_emb: false
+  MolR_node_emb: false
+  alpha_mlp:
+    n_layers: 2
+  augment_fingerprints: false
+  c_mlp:
+    n_layers: 1
+  combine_global: true
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  dg_molecular_property: logP
+  embed_path: MolR/saved/sage_50
+  encoder:
+    n_head: 2
+  global_transformer: false
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 100
+  embeddings_dim: 64
+  n_model_confs: 10
+  n_true_confs: 10
+  no_h_mol: false
+  random_alpha: false
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: false
+  utilize_deepergcn: true
+  utilize_fingerprints: false
+num_edge_features: 4
+num_node_features: 74
