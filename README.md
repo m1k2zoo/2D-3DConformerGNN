@@ -47,4 +47,18 @@ python scripts/compare_confs.py --output_folder GeoMol100_TPSA_64
 ```
 
 ## Citation
-If you find this work useful, please consider citing our paper. The citation information will be provided here soon!
+```
+@article{ALHAMOUD2024108622,
+title = {Leveraging 2D molecular graph pretraining for improved 3D conformer generation with graph neural networks},
+journal = {Computers & Chemical Engineering},
+volume = {183},
+pages = {108622},
+year = {2024},
+issn = {0098-1354},
+doi = {https://doi.org/10.1016/j.compchemeng.2024.108622},
+url = {https://www.sciencedirect.com/science/article/pii/S0098135424000401},
+author = {Kumail Alhamoud and Yasir Ghunaim and Abdulelah S. Alshehri and Guohao Li and Bernard Ghanem and Fengqi You},
+keywords = {Graph neural networks, Conformation generation, Pretraining molecular graph embeddings, Drug design, 3D molecular modeling},
+abstract = {Predicting stable 3D molecular conformations from 2D molecular graphs is a challenging and resource-intensive task, yet it is critical for various applications, particularly drug design. Density functional theory (DFT) calculations set the standard for molecular conformation generation, yet they are computationally intensive. Deep learning offers more computationally efficient approaches, but struggles to match DFT accuracy, particularly on complex drug-like structures. Additionally, the steep computational demands of assembling 3D molecular datasets constrain the broader adoption of deep learning. This work aims to utilize the abundant 2D molecular graph datasets for pretraining a machine learning model, a step that involves initially training the model on a different task with a wealth of data before fine-tuning it for the target task of 3D conformation generation. We build on GeoMol, an end-to-end graph neural network (GNN) method for predicting atomic 3D structures and torsion angles. We examine the limitations of the GeoMol method and introduce new baselines to enhance molecular graph embeddings. Our computational results show that 2D molecular graph pretraining enhances the quality of generated 3D conformers, yielding a 7.7 % average improvement over state-of-the-art sequential methods. These advancements not only facilitate superior 3D conformation generation but also emphasize the potential of leveraging pretrained graph embeddings to boost performance in 3D chemical tasks with GNNs.}
+}
+```
