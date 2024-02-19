@@ -47,6 +47,9 @@ python scripts/compare_confs.py --output_folder GeoMol100_TPSA_64
 ```
 
 ## Citation
+
+[Leveraging 2D molecular graph pretraining for improved 3D conformer generation with graph neural networks](https://doi.org/10.1016/j.compchemeng.2024.108622)
+
 ```
 @article{ALHAMOUD2024108622,
 title = {Leveraging 2D molecular graph pretraining for improved 3D conformer generation with graph neural networks},
